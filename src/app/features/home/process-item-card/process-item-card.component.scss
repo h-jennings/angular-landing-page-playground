@@ -1,0 +1,24 @@
+.process-item-card {
+  padding: 60px 70px 50px 70px;
+  border-right: 1px solid #f3f3f3;
+  min-height: 355px;
+
+  :last-of-type {
+    border-right: none;
+  }
+
+  h3 {
+    margin-bottom: 30px;
+  }
+
+  p {
+    text-align: left;
+  }
+
+  img {
+    display: block;
+    width: auto;
+    height: 34px;
+    margin-bottom: 95px;
+  }
+}

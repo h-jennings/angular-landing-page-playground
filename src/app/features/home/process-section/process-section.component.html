@@ -1,0 +1,17 @@
+<section class="process">
+  <div class="text-content--container d-flex justify-center align-items-center">
+    <h2>
+      The simplest web<br />
+      creation process, ever.
+    </h2>
+    <p>
+      We simplify every aspect of building a custom <br />
+      website for you or your business.
+    </p>
+  </div>
+  <div class="process-items--container">
+    <ng-container *ngFor="let item of processItems">
+      <app-process-item-card [cardData]="item"></app-process-item-card>
+    </ng-container>
+  </div>
+</section>

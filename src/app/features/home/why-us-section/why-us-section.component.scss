@@ -1,0 +1,29 @@
+#why-us {
+  background-color: var(--light-grey);
+  min-height: 100vh;
+
+  h2 {
+    margin-bottom: 30px;
+  }
+}
+
+.content-wrapper {
+  padding: 0 40px 128px 40px;
+}
+
+.text-content--container {
+  min-height: 360px;
+}
+
+.our-work__content {
+  max-width: 1100px;
+  display: grid;
+  margin: 0 auto;
+  justify-content: center;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+
+  & > :first-child {
+    grid-column: 1 / 3;
+  }
+}

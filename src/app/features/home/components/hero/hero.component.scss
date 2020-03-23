@@ -1,0 +1,15 @@
+.hero-container {
+  height: 100vh;
+  min-height: 700px;
+  flex-flow: column;
+  background-image: url('/assets/images/hero.jpg');
+  background-size: cover;
+  background-position: center;
+  h1 {
+    margin-bottom: 20px;
+  }
+
+  p {
+    margin-bottom: 50px;
+  }
+}

@@ -1,0 +1,41 @@
+:host {
+  background-color: #fff;
+  height: 280px;
+  display: flex;
+  box-shadow: 0 3.9px 3.8px rgba(0, 0, 0, 0.014),
+    0 9.3px 9px rgba(0, 0, 0, 0.02), 0 17.5px 17px rgba(0, 0, 0, 0.025),
+    0 31.3px 30.4px rgba(0, 0, 0, 0.03), 0 58.5px 56.8px rgba(0, 0, 0, 0.036),
+    0 140px 136px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  cursor: pointer;
+
+  &:hover {
+    transform: scale(1.05);
+  }
+
+  &:first-of-type {
+    background: radial-gradient(circle at center, #655dfc, #4644bc);
+    color: white;
+    box-shadow: 0 3.9px 3.8px rgba(70, 68, 188, 0.014),
+      0 9.3px 9px rgba(70, 68, 188, 0.02),
+      0 17.5px 17px rgba(70, 68, 188, 0.025),
+      0 31.3px 30.4px rgba(70, 68, 188, 0.03),
+      0 58.5px 56.8px rgba(70, 68, 188, 0.036),
+      0 140px 136px rgba(70, 68, 188, 0.05);
+  }
+
+  &:last-of-type {
+    background-color: black;
+    color: white;
+  }
+}
+.block-grid-item--container {
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  img {
+    display: inline-block;
+  }
+}

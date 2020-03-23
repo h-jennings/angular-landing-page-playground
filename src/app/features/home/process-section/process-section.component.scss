@@ -1,0 +1,21 @@
+.process {
+  height: 100vh;
+  display: flex;
+  flex-flow: column;
+}
+
+.text-content--container {
+  flex: 1;
+  min-height: 345px;
+  flex-flow: column;
+}
+
+.process-items--container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  border-top: 1px solid #f3f3f3;
+}
+
+h2 {
+  margin-bottom: 32px;
+}

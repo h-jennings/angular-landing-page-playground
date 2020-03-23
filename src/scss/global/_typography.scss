@@ -1,0 +1,90 @@
+@font-face {
+  font-family: 'Iosevka';
+  font-style: normal;
+  font-weight: 400;
+  src: url('/assets/fonts/iosevka-regular.woff2') format('woff2'),
+    url('/assets/fonts/iosevka-regular.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Iosevka';
+  font-style: normal;
+  font-weight: 700;
+  src: url('/assets/fonts/iosevka-bold.woff2') format('woff2'),
+    url('/assets/fonts/iosevka-bold.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Iosevka';
+  font-style: normal;
+  font-weight: 300;
+  src: url('/assets/fonts/iosevka-light.woff2') format('woff2'),
+    url('/assets/fonts/iosevka-light.woff') format('woff');
+}
+
+:root {
+  --primary-font: 'Iosevka';
+  font-size: 16px;
+  --scale: 1.333;
+  --txt-base: 1rem;
+  --txt-xxsm: 0.55rem;
+  --txt-xsm: 0.75rem;
+  --txt-sm: 1.35rem;
+  --txt-md: 1.75rem;
+  --txt-lg: 2.35rem;
+  --txt-xl: 3.15rem;
+  --txt-xxl: 4.15rem;
+  --txt-super: 5.55rem;
+}
+
+html {
+  font-family: var(--primary-font);
+  color: var(--black);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+h1 {
+  font-size: var(--txt-xl);
+  line-height: 1.33;
+  text-align: center;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: var(--txt-lg);
+  line-height: 1.33;
+  text-align: center;
+  font-weight: 700;
+}
+
+h3 {
+  font-size: var(--txt-sm);
+  line-height: 1.33;
+  text-align: left;
+  font-weight: 700;
+}
+
+p {
+  color: var(--grey);
+  font-size: var(--txt-sm);
+  text-align: center;
+  font-weight: 400;
+  line-height: 1.33;
+}
+
+a {
+  text-decoration: none;
+  font-size: var(--txt-base);
+  text-align: center;
+  line-height: 1;
+  color: var(--grey);
+}
