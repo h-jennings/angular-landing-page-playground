@@ -1,0 +1,10 @@
+.c-icon-row__container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 20px;
+
+  & > * {
+    margin-right: 8px;
+  }
+}

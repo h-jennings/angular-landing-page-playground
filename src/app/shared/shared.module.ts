@@ -4,9 +4,11 @@ import { RouterModule } from '@angular/router';
 
 // Custom Shared Components
 import { ButtonComponent } from './button/button.component';
+import { StatusCircleComponent } from './icons/status-circle/status-circle.component';
+import { StatusSquareComponent } from './icons/status-square/status-square.component';
 
 @NgModule({
-  declarations: [ButtonComponent],
+  declarations: [ButtonComponent, StatusCircleComponent, StatusSquareComponent],
   imports: [RouterModule, CommonModule],
   exports: [
     // vendor
@@ -16,5 +18,6 @@ import { ButtonComponent } from './button/button.component';
     // local/custom
     ButtonComponent,
   ],
+  entryComponents: [StatusCircleComponent, StatusSquareComponent],
 })
 export class SharedModule {}

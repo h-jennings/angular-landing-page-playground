@@ -39,6 +39,11 @@ const routes: Routes = [
       import('./features/pricing/pricing.module').then((m) => m.PricingModule),
   },
   {
+    path: 'icons',
+    loadChildren: () =>
+      import('./features/icons/icons.module').then((m) => m.IconsModule),
+  },
+  {
     path: '**',
     redirectTo: 'home',
   },
