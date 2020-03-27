@@ -1,5 +1,5 @@
 import { Component, Input } from '@angular/core';
-import { IconComponent } from 'src/app/features/icons/icon-row/icon-item.model';
+import { IconComponent } from 'src/app/features/icons/icon-row/icon-component.model';
 
 @Component({
   selector: 'status-circle',

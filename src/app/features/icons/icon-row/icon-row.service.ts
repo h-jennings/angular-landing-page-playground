@@ -8,14 +8,14 @@ import { IconItem } from './icon-item';
 export class IconService {
   getIcons() {
     return [
-      new IconItem(StatusCircleComponent, {
-        fill: 'blue',
-      }),
-      new IconItem(StatusSquareComponent, {
-        fill: 'red',
-      }),
-      new IconItem(StatusCircleComponent, {
-        fill: 'green',
+      new IconItem({
+        text: 'Test',
+        symbol: {
+          component: StatusCircleComponent,
+          data: {
+            fill: 'blue',
+          },
+        },
       }),
     ];
   }

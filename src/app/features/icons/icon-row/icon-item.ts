@@ -1,5 +1,5 @@
-import { Type } from '@angular/core';
+import { IconItemInterface } from './icon-item.model';
 
 export class IconItem {
-  constructor(public component: Type<any>, public data: any) {}
+  constructor(public iconItem: IconItemInterface) {}
 }
